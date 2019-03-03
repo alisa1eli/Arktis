@@ -5,6 +5,7 @@ library(ggplot2)
 
 library(markdown)
 
+tags$head(includeScript("fullStory.js"))
 
 navbarPage("Arktis!",
            tabPanel("Lämpötila eri vuosina ja leveysasteilla",
@@ -43,7 +44,8 @@ navbarPage("Arktis!",
                     mainPanel(
                       includeHTML("muuta.html") 
                       )
-           )
+           ),
+           tags$head(includeScript("fullStory.js"))
 )
 
 

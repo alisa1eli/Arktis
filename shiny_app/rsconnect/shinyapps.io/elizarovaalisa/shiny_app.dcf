@@ -1,0 +1,12 @@
+name: shiny_app
+title: shiny_app
+username:
+account: elizarovaalisa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 757671
+bundleId: 1912366
+url: https://elizarovaalisa.shinyapps.io/shiny_app/
+when: 1551636513.27956
+asMultiple: FALSE
+asStatic: FALSE
